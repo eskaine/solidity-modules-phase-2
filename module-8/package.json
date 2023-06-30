@@ -1,0 +1,17 @@
+{
+  "name": "module-8",
+  "scripts": {
+    "address": "npx hardhat run --network localhost scripts/address-hacks.js",
+    "merkle": "npx hardhat run --network localhost scripts/advanced-nft.js",
+    "ethernaut": "npx hardhat run --network localhost scripts/ethernaut.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@openzeppelin/contracts": "^4.9.0",
+    "@openzeppelin/merkle-tree": "^1.0.4",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.14.1",
+    "solmate": "6.6.1"
+  }
+}

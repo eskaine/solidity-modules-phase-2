@@ -1,0 +1,14 @@
+{
+  "name": "module-7",
+  "scripts": {
+    "ethernaut": "npx hardhat run --network localhost scripts/ethernaut-solutions.js"
+  },
+  "dependencies": {
+    "openzeppelin-contracts-08": "npm:@openzeppelin/contracts@4.7.3"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.14.0"
+  }
+}

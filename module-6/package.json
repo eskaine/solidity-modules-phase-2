@@ -1,0 +1,16 @@
+{
+  "name": "module-6",
+  "scripts": {
+    "ethernaut": "npx hardhat run --network localhost scripts/ethernaut-solutions.js",
+    "cte:lotteries": "npx hardhat run --network localhost scripts/cte-lotteries-solutions.js",
+  },
+  "dependencies": {
+    "openzeppelin-contracts-06": "npm:@openzeppelin/contracts@3.4.2",
+    "openzeppelin-contracts-08": "npm:@openzeppelin/contracts@4.7.3"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.14.0"
+  }
+}
